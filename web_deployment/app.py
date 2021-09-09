@@ -23,7 +23,7 @@ def load_model():
 with st.spinner('Loading the tool..'):
     model=load_model()
 
-st.markdown("
+st.write("""
         # Background Remover Tool   
          This is a tool that can be used to remove background from your images. It is based on semantic segmentation and  works best for **portrait images that contains a single human in focus.**
 
@@ -34,10 +34,8 @@ st.markdown("
 
          Created by - ***[UMAR MASUD](https://umar07.github.io)***
          [Source Code](https://github.com/umar07/Background_Removal_Semantic_Segmentation)
-	 
-	 **NOTE** : YOUR IMAGE IS NOT SAVED ANYHWERE AND IT IS NOT USED FOR ANY FURTHER TRAINING/TESTING. IT IS ONLY USED FOR INFERENCE TO PRODUCE THE RESULT.
-	 
-         "
+	 	 
+         """
          )
 
 file = st.file_uploader("Please upload you image below", type=["jpg", "png", "jpeg"])
