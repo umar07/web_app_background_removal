@@ -35,9 +35,7 @@ st.write("""
          Created by - ***[UMAR MASUD](https://umar07.github.io)***
 	 
          [Source Code](https://github.com/umar07/Background_Removal_Semantic_Segmentation)
-	 
-	 **Note** : YOUR IMAGES ARE NOT SAVED ANYWHERE OR USED FOR FURTHER TRAINING/TESTING. IT IS ONLY USED FOR INFERENCE TO PRODUCE THE RESULT.
-	 	 
+	  	 
          """
          )
 
