@@ -16,7 +16,7 @@ def load_model():
     loss_func = JaccardLoss(per_image=True)
     metric = IOUScore(per_image=True)
 
-    model = tf.keras.models.load_model('../Unet_model', compile=False)
+    model = tf.keras.models.load_model('/app/web_app_background_removal/Unet_model', compile=False)
     model.compile(loss = loss_func, optimizer="adam", metrics=[metric])
     return model
 
