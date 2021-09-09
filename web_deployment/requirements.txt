@@ -1,4 +1,4 @@
-opencv_python==4.5.1.48
+opencv-python-headless
 segmentation_models==1.0.1
 tensorflow==2.4.1
 numpy==1.19.3
