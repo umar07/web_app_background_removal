@@ -33,7 +33,10 @@ st.write("""
          Also, the model was trained on a very selective dataset of front-facing, portrait images of humans due to computational limitations, therefore might give sub-optimal performance in other cases.*
 
          Created by - ***[UMAR MASUD](https://umar07.github.io)***
+	 
          [Source Code](https://github.com/umar07/Background_Removal_Semantic_Segmentation)
+	 
+	 **Note** : YOUR IMAGES ARE NOT SAVED ANYWHERE OR USED FOR FURTHER TRAINING/TESTING. IT IS ONLY USED FOR INFERENCE TO PRODUCE THE RESULT.
 	 	 
          """
          )
