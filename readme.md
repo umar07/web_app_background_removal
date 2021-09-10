@@ -4,4 +4,4 @@ This is repository contains the model deployment of the project - [Background Re
 
 The web-app was made using the **Streamlit** library, which offers very simple and interactive solutions in python for quick deployment of web-apps.
 
-Check the tool here - 
+Check the tool here - https://share.streamlit.io/umar07/web_app_background_removal/main/web_deployment/app.py
